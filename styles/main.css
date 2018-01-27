@@ -369,7 +369,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a4f69', endColorstr='#08344a', GradientType=1 ); }
 
 .container-mvp {
-  width: 50vw;
+  width: 70vw;
   height: 100vh;
   margin: 0 auto;
   padding: 0 30px;
@@ -386,6 +386,10 @@ body {
     text-align: center; }
     .container-mvp .info p {
       margin: 10px 0; }
+    .container-mvp .info .date {
+      font-size: 20px;
+      font-weight: 800;
+      color: #FF9800; }
   .container-mvp .c4p {
     margin: 10px 0; }
     .container-mvp .c4p a {
@@ -409,3 +413,6 @@ body {
       transition: filter 2s; }
       .container-mvp .social .icon:hover {
         filter: opacity(1); }
+
+body {
+  background-color: #08344a; }

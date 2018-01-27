@@ -12,7 +12,7 @@ body{
 }
 
 .container-mvp{
-    width: 50vw;
+    width: 70vw;
     height: 100vh;
     margin: 0 auto;
     padding: 0 30px;
@@ -25,14 +25,19 @@ body{
             width: 100%;
             max-width: 350px;
         }
-        .year{
+        .year {
             font-size: 30px;
         }
     }
-    .info{
+    .info {
         text-align: center;
-        p{
+        p {
             margin: 10px 0;
+        }
+        .date {
+            font-size: 20px;
+            font-weight: 800;
+            color: #FF9800;
         }
     }
     .c4p {
