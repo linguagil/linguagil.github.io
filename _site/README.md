@@ -6,13 +6,7 @@ Evento LinguÁgil 2018 - Salvador/BA
 
 ## Como executar o site
 
-Certifique-se de você tem o docker instalado
-
-    $ git clone git@github.com:linguagil/2018.git
-    $ cd 2018
-    $ make watch
-    
-Abra o arquivo ```2018/_site/index.html```
+    $ git 
 
 ## Como participar da organização
 
