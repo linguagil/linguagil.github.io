@@ -4,7 +4,7 @@
 
 Evento LinguÁgil 2018 - Salvador/BA
 
-## Como executar o site
+## Como iniciar o site
 
 Certifique-se de você tem o docker instalado
 
