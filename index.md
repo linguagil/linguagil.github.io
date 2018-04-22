@@ -20,8 +20,8 @@ layout: home
 <body id="page-top" class="index">
 {% include nav.html %}
 {% include header.html %}
-{% include portfolio_grid.html %}
 {% include about.html %}
+{% include portfolio_grid.html %}
 
 {% if site.contact == "static" %}
 {% include contact_static.html %}
