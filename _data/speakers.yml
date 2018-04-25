@@ -1,6 +1,7 @@
 - ref: 1
   avatar: palestrante01.jpeg
   name: Name Surname
+  company: Company
   bio: That's a tiny bio
   talk: Título da palestra
   description: Descrição da palestra
@@ -10,6 +11,7 @@
 - ref: 2
   avatar: palestrante02.jpeg
   name: Name Surname 2
+  company: Company
   bio: That's a tiny bio 2
   talk: Título da palestra 2
   description: Descrição da palestra 2
@@ -19,6 +21,7 @@
 - ref: 3
   avatar: palestrante03.jpeg
   name: Name Surname 3
+  company: Company
   bio: That's a tiny bio 3
   talk: Título da palestra 3
   description: Descrição da palestra 3

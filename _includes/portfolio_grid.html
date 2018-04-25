@@ -3,11 +3,6 @@
 <section id="palestrantes">
     <div class="container">
         <div class="row">
-            {% for author in site.data.speakers %}
-            <a href="{{ author.url }}">{{ author.name }}</a>
-            {% endfor %}
-        </div>
-        <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>Palestrantes</h2>
                 <hr class="star-primary">
@@ -23,7 +18,8 @@
                         </div>
                     </div>
                     <img src="assets/images/portfolio/{{ speaker.avatar }}" class="img-responsive" alt="{{ speaker.name }}">
-                    <h2>{{ speaker.name }}</h2>
+                    <h4>{{ speaker.name }}</h4>
+                    <h6 class="text-muted">{{ speaker.company }}</h6>
                     <p>{{ speaker.talk }}</p>
                 </a>
             </div>
