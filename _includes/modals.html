@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
- {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for speaker in site.data.speakers %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ speaker.ref }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,21 +12,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                            <h2>{{ speaker.name }}</h2>
                             <hr class="star-primary">
-                            <img src="assets/images/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <img src="assets/images/portfolio/{{ speaker.avatar }}" class="img-responsive img-centered" alt="{{ speaker.name }}">
+                            <p>{{ speaker.talk }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                    <strong><a href="http://startbootstrap.com">{{ speaker.description }}</a>
                                     </strong>
                                 </li>
                             </ul>
