@@ -47,6 +47,7 @@ a:active,
 a.active {
     outline: 0;
     color: $primary-color;
+    text-decoration: none;
 }
 
 h1,
@@ -245,7 +246,7 @@ section.success {
 
 #palestrantes .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0 80px;
 }
 
 #palestrantes .portfolio-item .portfolio-link {
@@ -267,7 +268,7 @@ section.success {
 }
 
 #palestrantes .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 #palestrantes .portfolio-item .portfolio-link .caption .caption-content {
