@@ -251,20 +251,20 @@ section.success {
     }
 }
 
-#palestrantes .portfolio-item {
+#speakers .portfolio-item {
     right: 0;
     margin: 0 0 80px;
     word-wrap: break-word;
 }
 
-#palestrantes .portfolio-item .portfolio-link {
+#speakers .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#palestrantes .portfolio-item .portfolio-link .caption {
+#speakers .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -275,11 +275,11 @@ section.success {
     transition: all ease .5s;
 }
 
-#palestrantes .portfolio-item .portfolio-link .caption:hover {
+#speakers .portfolio-item .portfolio-link .caption:hover {
     opacity: 0.8;
 }
 
-#palestrantes .portfolio-item .portfolio-link .caption .caption-content {
+#speakers .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -290,21 +290,21 @@ section.success {
     color: #fff;
 }
 
-#palestrantes .portfolio-item .portfolio-link .caption .caption-content i {
+#speakers .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
 
-#palestrantes .portfolio-item .portfolio-link .caption .caption-content h3,
-#palestrantes .portfolio-item .portfolio-link .caption .caption-content h4 {
+#speakers .portfolio-item .portfolio-link .caption .caption-content h3,
+#speakers .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
 }
 
-#palestrantes * {
+#speakers * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #palestrantes .portfolio-item {
+    #speakers .portfolio-item {
         margin: 0 0 30px;
     }
 }
