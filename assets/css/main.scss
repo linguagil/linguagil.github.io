@@ -51,11 +51,18 @@ a.active {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-weight: bold;
     color: $primary-color;
 }
-h3,
+h2 {
+    font-size: 3em;
+}
+h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
 h4,
 h5,
 h6 {
@@ -226,7 +233,7 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    //font-size: 3em;
 }
 
 section.success {
@@ -247,6 +254,7 @@ section.success {
 #palestrantes .portfolio-item {
     right: 0;
     margin: 0 0 80px;
+    word-wrap: break-word;
 }
 
 #palestrantes .portfolio-item .portfolio-link {
@@ -444,11 +452,16 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    word-wrap: break-word;
+}
+
+.portfolio-modal p {
+    padding-bottom: 20px;
 }
 
 .portfolio-modal .modal-content h2 {
     margin: 0;
-    font-size: 3em;
+    //font-size: 1em;
 }
 
 .portfolio-modal .modal-content img {

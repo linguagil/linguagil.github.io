@@ -12,17 +12,15 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ speaker.name }}</h2>
+                            <h2>{{ speaker.talk }}</h2>
                             <hr class="star-primary">
+                            <p>{{ speaker.description }} asd ahjsdj haksdj haskjdh aksdh audh asjkdh aisudh ajkdhaisjdhakdjha skjdha ksdjh</p>
                             <img src="assets/images/portfolio/{{ speaker.avatar }}" class="img-responsive img-centered" alt="{{ speaker.name }}">
-                            <p>{{ speaker.talk }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ speaker.description }}</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <h4>{{ speaker.name }}</h4>
+                            <h5>{{ speaker.company }}</h5>
+                            <p>{{ speaker.bio }}</p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
