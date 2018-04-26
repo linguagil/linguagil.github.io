@@ -21,8 +21,7 @@ layout: home
 {% include nav.html %}
 {% include header.html %}
 {% include about.html %}
-{% include portfolio_grid.html %}
-
+{% include speakers_grid.html %}
 
 <section class="success" id="venue">
     <div class="container">
