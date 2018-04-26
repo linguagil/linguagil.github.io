@@ -1,0 +1,29 @@
+- ref: 1
+  avatar: palestrante01.jpeg
+  name: Adele Goldstine
+  company: Bli Co.
+  bio: Full Stack Developer na Bli. Apaixonada por desenvolvimento web, phasellus sollicitudin purus turpis, sit amet elementum diam varius ultricies.
+  talk: Desenvolvendo apps com sociosqu ad litora
+  description: Você precisa saber como class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum semper volutpat placerat.
+  github: colares
+  twitter: thicolares
+
+- ref: 2
+  avatar: palestrante02.jpeg
+  name: Fran Bilas
+  company: ACME Corp.
+  bio: Desenvolvedora de maecenas ut mauris nec tellus dignissim dignissim. Nullam eu lacinia lectus. Nulla hendrerit turpis vel maximus iaculis.
+  talk: Como implantar dignissim nisi
+  description: As ferramentas de ut semper, est interdum venenatis venenatis, lacus ante egestas urna, a elementum augue felis et risus. Sed cursus pretium sem eget mattis.
+  github: colares
+  twitter: thicolares
+
+- ref: 3
+  avatar: palestrante03.jpeg
+  name: Ray Tomlinson
+  company: Empresas Wayne
+  bio: Lider de nullam et lacinia lectus. Nulla hendrerit turpis vel maximus iaculis. Nullam sed bibendum nisl. Proin ullamcorper vel ligula ut accumsan.
+  talk: 3 passos para vitae orci varius varius
+  description: A processo de implantação de quisque vestibulum metus sit amet sodales maximus. Ut semper, est interdum venenatis venenatis.
+  github: colares
+  twitter: thicolares
