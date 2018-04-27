@@ -41,43 +41,18 @@
 
         <div class="row schedule-list-row">
             <div class="schedule-list">
-                <div class="schedule-list-item">
-                    <div class="schedule-list-item-heading" style="">
-                        <h3 class="time text-muted">8h</h3>
-                        <h3>Credenciamento</h3>
-                        <h1></h1>
-                    </div>
-                </div>
-                <div class="schedule-list-item">
-                    <div class="schedule-list-item-heading" style="">
-                        <h3 class="time text-muted">9h</h3>
-                        <h3>Abertura do evento</h3>
-                    </div>
-                </div>
+                {% include schedule_checkpoint.html time="8h" title="Credenciamento" %}
+                {% include schedule_checkpoint.html time="9h" title="Abertura do evento" %}
+
                 {% include schedule_speaker.html speaker=site.data.speakers.adale %}
                 {% include schedule_speaker.html speaker=site.data.speakers.fran %}
 
-                <div class="schedule-list-item">
-                    <div class="schedule-list-item-heading" style="">
-                        <h3 class="time text-muted">10h20</h3>
-                        <h3>Coffe break</h3>
-                    </div>
-                </div>
+                {% include schedule_checkpoint.html time="10h20" title="Coffe break" %}
 
                 {% include schedule_speaker.html speaker=site.data.speakers.ray %}
 
-                <div class="schedule-list-item">
-                    <div class="schedule-list-item-heading" style="">
-                        <h3 class="time text-muted">12h</h3>
-                        <h3>Almoço</h3>
-                    </div>
-                </div>
-                <div class="schedule-list-item">
-                    <div class="schedule-list-item-heading" style="">
-                        <h3 class="time text-muted">13h50</h3>
-                        <h3>Abertura da tarde</h3>
-                    </div>
-                </div>
+                {% include schedule_checkpoint.html time="12h" title="Almoço" %}
+                {% include schedule_checkpoint.html time="13h50" title="Abertura da tarde" %}
             </div>
         </div>
     </div>
