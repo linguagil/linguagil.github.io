@@ -21,9 +21,13 @@
                 display: flex;
                 justify-content: flex-start;
             }
+            .schedule-list-item-heading h3 {
+                color: #23202B;
+            }
             .schedule-list-item-heading h3.time {
                 width: 80px;
                 text-align: right;
+                color: #999;
             }
             .schedule-list-item-heading h3, .schedule-list-item-heading h2 {
                 margin: 0;
@@ -39,28 +43,39 @@
             <div class="schedule-list">
                 <div class="schedule-list-item">
                     <div class="schedule-list-item-heading" style="">
-                        <h3 class="time text-muted">9h</h3>
-                        <h3>asdasd asd</h3>
+                        <h3 class="time text-muted">8h</h3>
+                        <h3>Credenciamento</h3>
+                        <h1></h1>
                     </div>
-                </div>
-                <div class="schedule-list-item">
-                    <div class="schedule-list-item-heading" style="">
-                        <h3 class="time text-muted"></h3>
-                        <h2>Joston Muriel</h2>
-                    </div>
-                    <p class="schedule-list-item-text">asd asdj as asd asd asd asd asd asd  askjdh</p>
-                </div>
-                <div class="schedule-list-item">
-                    <div class="schedule-list-item-heading" style="">
-                        <h3 class="time text-muted"></h3>
-                        <h2>Joston Muriel</h2>
-                    </div>
-                    <p class="schedule-list-item-text">asd asdj as asd asd asd asd asd asd  askjdh</p>
                 </div>
                 <div class="schedule-list-item">
                     <div class="schedule-list-item-heading" style="">
                         <h3 class="time text-muted">9h</h3>
-                        <h3>asdasd asd</h3>
+                        <h3>Abertura do evento</h3>
+                    </div>
+                </div>
+                {% include schedule_speaker.html speaker=site.data.speakers.adale %}
+                {% include schedule_speaker.html speaker=site.data.speakers.fran %}
+
+                <div class="schedule-list-item">
+                    <div class="schedule-list-item-heading" style="">
+                        <h3 class="time text-muted">10h20</h3>
+                        <h3>Coffe break</h3>
+                    </div>
+                </div>
+
+                {% include schedule_speaker.html speaker=site.data.speakers.ray %}
+
+                <div class="schedule-list-item">
+                    <div class="schedule-list-item-heading" style="">
+                        <h3 class="time text-muted">12h</h3>
+                        <h3>Almoço</h3>
+                    </div>
+                </div>
+                <div class="schedule-list-item">
+                    <div class="schedule-list-item-heading" style="">
+                        <h3 class="time text-muted">13h50</h3>
+                        <h3>Abertura da tarde</h3>
                     </div>
                 </div>
             </div>
