@@ -517,3 +517,42 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+
+// SCHEDULE!
+$schedule-padding: 180px;
+$schedule-offset: 40px;
+
+ .schedule-list-row {
+     display: flex;
+     justify-content: center;
+ }
+.schedule-list {
+
+}
+.schedule-list-item {
+    margin-bottom: 35px;
+}
+.schedule-list-item-heading {
+    display: flex;
+    justify-content: flex-start;
+    h2 {
+        color: #23202B;
+        &.schedule-time {
+            width: $schedule-padding;
+            text-align: right;
+            color: $light-color;
+        }
+        &.schedule-speaker {
+            color: $primary-color;
+        }
+    }
+    h3, h2 {
+        margin: 0;
+        padding: 0;
+        padding-left: $schedule-offset;
+    }
+}
+.schedule-list-item-text {
+    padding-left: $schedule-padding + $schedule-offset;
+}
