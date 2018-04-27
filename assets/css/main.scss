@@ -520,39 +520,31 @@ footer .footer-below {
 
 
 // SCHEDULE!
-$schedule-padding: 180px;
-$schedule-offset: 40px;
-
- .schedule-list-row {
-     display: flex;
-     justify-content: center;
- }
-.schedule-list {
-
-}
-.schedule-list-item {
-    margin-bottom: 35px;
-}
-.schedule-list-item-heading {
+.schedule-row {
     display: flex;
-    justify-content: flex-start;
-    h2 {
-        color: #23202B;
-        &.schedule-time {
-            width: $schedule-padding;
-            text-align: right;
-            color: $light-color;
-        }
-        &.schedule-speaker {
-            color: $primary-color;
-        }
+    justify-content: center;
+}
+
+.schedule-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30% 70%);
+    grid-gap: 5%;
+    grid-row-gap: 30px;
+    h2.time {
+        color: #ccc;
+        text-align: right;
     }
-    h3, h2 {
-        margin: 0;
-        padding: 0;
-        padding-left: $schedule-offset;
+    h2.checkpoint {
+        color: black;
     }
 }
-.schedule-list-item-text {
-    padding-left: $schedule-padding + $schedule-offset;
+
+
+@media(max-width:768px) {
+    .schedule-grid {
+        h2 {
+            font-size: 1.5em;
+        }
+    }
 }
