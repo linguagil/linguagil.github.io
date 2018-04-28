@@ -1,5 +1,4 @@
-adale:
-  ref: 1
+- ref: 1
   avatar: palestrante01.jpeg
   name: Adele Goldstine
   company: Bli Co.
@@ -9,8 +8,7 @@ adale:
   github: colares
   twitter: thicolares
 
-fran:
-  ref: 2
+- ref: 2
   avatar: palestrante02.jpeg
   name: Fran Bilas
   company: ACME Corp.
@@ -20,8 +18,7 @@ fran:
   github: colares
   twitter: thicolares
 
-ray:
-  ref: 3
+- ref: 3
   avatar: palestrante03.jpeg
   name: Ray Tomlinson
   company: Empresas Wayne
