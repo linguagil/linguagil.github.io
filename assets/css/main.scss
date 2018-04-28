@@ -528,18 +528,21 @@ footer .footer-below {
 .schedule-grid {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 30% 70%);
+    grid-template-columns: repeat(auto-fit, 25% 70%);
     grid-gap: 5%;
     grid-row-gap: 30px;
-    h2.time {
-        color: #ccc;
-        text-align: right;
-    }
-    h2.checkpoint {
-        color: black;
+    h2 {
+        font-size: 2em;
+        font-weight: bold;
+        &.time {
+            color: $light-color;
+            text-align: right;
+        }
+        &.checkpoint {
+            color: black;
+        }
     }
 }
-
 
 @media(max-width:768px) {
     .schedule-grid {
