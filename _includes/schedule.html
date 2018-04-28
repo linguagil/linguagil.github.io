@@ -1,0 +1,32 @@
+<section id="schedule">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Programação</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+
+
+        <div class="row schedule-row">
+            <div class="schedule-grid">
+                {% include schedule_checkpoint.html time="8h" title="Credenciamento" %}
+                {% include schedule_checkpoint.html time="9h" title="Abertura do evento" %}
+
+                {% assign speaker = site.data.speakers[0] %}
+                {% include schedule_speaker.html speaker=speaker %}
+
+                {% assign speaker = site.data.speakers[1] %}
+                {% include schedule_speaker.html speaker=speaker %}
+
+                {% include schedule_checkpoint.html time="10h20" title="Coffe break" %}
+
+                {% assign speaker = site.data.speakers[2] %}
+                {% include schedule_speaker.html speaker=speaker %}
+
+                {% include schedule_checkpoint.html time="12h" title="Almoço" %}
+                {% include schedule_checkpoint.html time="13h50" title="Abertura da tarde" %}
+            </div>
+        </div>
+    </div>
+</section>

@@ -517,3 +517,37 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+
+// SCHEDULE!
+.schedule-row {
+    display: flex;
+    justify-content: center;
+}
+
+.schedule-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25% 70%);
+    grid-gap: 5%;
+    grid-row-gap: 30px;
+    h2 {
+        font-size: 2em;
+        font-weight: bold;
+        &.time {
+            color: $light-color;
+            text-align: right;
+        }
+        &.checkpoint {
+            color: black;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .schedule-grid {
+        h2 {
+            font-size: 1.5em;
+        }
+    }
+}
