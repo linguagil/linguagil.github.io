@@ -39,7 +39,6 @@ layout: home
 
 {% include schedule.html %}
 
-{% include sponsorship.html %}
 {% include support.html %}
 
 {% if site.contact == "static" %}
