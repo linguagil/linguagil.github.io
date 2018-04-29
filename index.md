@@ -20,8 +20,9 @@ layout: home
 <body id="page-top" class="index">
 {% include nav.html %}
 {% include header.html %}
-{% include c4p.html %}
 {% include about.html %}
+{% include c4p.html %}
+
 {% include speakers_grid.html %}
 
 <section class="success" id="venue">
