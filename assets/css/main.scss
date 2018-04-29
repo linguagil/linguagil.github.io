@@ -518,9 +518,28 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-.navbar-nav>.active>a {
-    background-color: $secondary-color;
+
+.navbar-default {
+    .navbar-nav>.active>a,
+    .navbar-nav>.active>a:hover,
+    .navbar-nav>.active>a:focus {
+        background-color: $tertiary-color;
+    }
 }
+
+.navbar-default {
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+        color: $primary-color;
+        background-color: transparent
+    }
+    .navbar-nav>li>a:hover,
+    .navbar-nav>li>a:focus {
+        color: $primary-color;
+        background-color: transparent
+    }
+}
+
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
@@ -562,3 +581,5 @@ footer .footer-below {
         }
     }
 }
+
+
