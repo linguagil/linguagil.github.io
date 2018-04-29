@@ -53,19 +53,7 @@ layout: home
     </div>
 </section>
 
-<section id="support">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Apoio e realização</h2>
-                <hr class="star-light">
-            </div>
-        </div>
-        <div class="row">
-            tbd...
-        </div>
-    </div>
-</section>
+{% include support.html %}
 
 {% if site.contact == "static" %}
 {% include contact_static.html %}
