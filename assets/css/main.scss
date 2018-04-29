@@ -91,15 +91,16 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
+// Star light
 hr.star-light {
-    border-color: $secondary-color;
+    border-color: $lighter-color;
 }
-
 hr.star-light:after {
-    color: $secondary-color;
+    color: $lighter-color;
     background-color: $primary-color;
 }
 
+// Star primary
 hr.star-primary {
     border-color: $secondary-color;
 }
@@ -237,8 +238,12 @@ section h2 {
 }
 
 section.success {
-    color: $tertiary-color;
+    color: $lighter-color;
     background: $primary-color;
+}
+section.light {
+    color: $secondary-color;
+    background: $lighter-color;
 }
 
 @media(max-width:767px) {
