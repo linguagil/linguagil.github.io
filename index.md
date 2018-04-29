@@ -65,6 +65,14 @@ layout: home
     </div>
 </section>
 
+{% if site.contact == "static" %}
+{% include contact_static.html %}
+{% elsif site.contact == "disqus" %}
+{% include contact_disqus.html %}
+{% else %}
+{% include contact.html %}
+{% endif %}
+
 {% include footer.html %}
 {% include modals.html %}
 {% include js.html %}
