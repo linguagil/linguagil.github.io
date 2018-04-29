@@ -59,6 +59,10 @@ h3 {
 h2 {
     font-size: 3em;
 }
+h3 {
+    color: $secondary-color;
+    font-size: 2em;
+}
 h4 {
     font-size: 1.5em;
     font-weight: bold;
@@ -519,8 +523,8 @@ footer .footer-below {
 }
 
 
-// SCHEDULE!
-.schedule-row {
+// SCHEDULE
+.flexbox-center {
     display: flex;
     justify-content: center;
 }
@@ -551,3 +555,17 @@ footer .footer-below {
         }
     }
 }
+
+
+// SPONSORSHIP AND SUPPORT
+.logo-grid {
+    padding: 20px 0;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+    grid-row-gap: 30px;
+    a {
+        justify-self: center;
+    }
+}
+
