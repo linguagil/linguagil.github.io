@@ -13,6 +13,7 @@ $secondary-color: #23202B;
 $tertiary-color: #525766;
 $light-color: #9398A3;
 $lighter-color: #D2DEDB;
+$lightest-color: white;
 
 
 // Overrinding boostrap
@@ -91,15 +92,16 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
+// Star light
 hr.star-light {
-    border-color: $secondary-color;
+    border-color: $lightest-color;
 }
-
 hr.star-light:after {
-    color: $secondary-color;
+    color: $lightest-color;
     background-color: $primary-color;
 }
 
+// Star primary
 hr.star-primary {
     border-color: $secondary-color;
 }
@@ -113,6 +115,8 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+
+// Header
 header {
     text-align: center;
     color: $tertiary-color;
@@ -134,8 +138,8 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 0;
+    padding-top: 120px;
+    padding-bottom: 100px;
 }
 
 header img {
@@ -143,16 +147,23 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
-    display: block;
-    // text-transform: uppercase;
-    font-size: 2em;
-    font-weight: 500;
-}
-
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+header .intro-text {
+    h1,h2,h3 {
+        color: $lightest-color;
+    }
+    h2,h3 {
+        font-weight: lighter;
+    }
+    h1 {
+        display: block;
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
 }
 
 @media(min-width:768px) {
@@ -168,15 +179,15 @@ header .intro-text .skills {
 
     header .container {
         padding-top: 180px;
-        padding-bottom: 0;
     }
 
-    header .intro-text .name {
-        font-size: 4.75em;
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em;
+    header .intro-text {
+        h1 {
+            font-size: 4.75em;
+        }
+        h2 {
+            font-size: 3em;
+        }
     }
 }
 
@@ -189,6 +200,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
+        padding: 15px 15px;
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -237,8 +249,12 @@ section h2 {
 }
 
 section.success {
-    color: $tertiary-color;
+    color: $lighter-color;
     background: $primary-color;
+}
+section.light {
+    color: $secondary-color;
+    background: $lighter-color;
 }
 
 @media(max-width:767px) {
@@ -307,6 +323,12 @@ section.success {
     #speakers .speaker-item {
         margin: 0 0 30px;
     }
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
 }
 
 .btn-outline {
@@ -507,9 +529,31 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-.navbar-nav>.active>a {
-    background-color: $secondary-color;
+
+.navbar-default {
+    .navbar-nav>.active>a,
+    .navbar-nav>.active>a:hover,
+    .navbar-nav>.active>a:focus {
+        background-color: $tertiary-color;
+    }
 }
+
+
+
+
+.navbar-default {
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+        color: $primary-color;
+        background-color: transparent
+    }
+    .navbar-nav>li>a:hover,
+    .navbar-nav>li>a:focus {
+        color: $primary-color;
+        background-color: transparent
+    }
+}
+
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
@@ -551,3 +595,5 @@ footer .footer-below {
         }
     }
 }
+
+
