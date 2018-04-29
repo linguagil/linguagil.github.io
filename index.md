@@ -23,8 +23,6 @@ layout: home
 {% include about.html %}
 {% include c4p.html %}
 
-{% include speakers_grid.html %}
-
 <section class="success" id="venue">
     <div class="container">
         <div class="row">
@@ -38,8 +36,6 @@ layout: home
         </div>
     </div>
 </section>
-
-{% include schedule.html %}
 
 <section id="sponsorship">
     <div class="container">
