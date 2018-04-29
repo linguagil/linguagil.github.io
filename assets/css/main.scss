@@ -321,6 +321,12 @@ section.light {
     }
 }
 
+.btn-primary {
+    color: #ffffff;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px $tertiary-color;
