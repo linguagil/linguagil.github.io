@@ -542,9 +542,6 @@ footer .footer-below {
     }
 }
 
-
-
-
 .navbar-default {
     .navbar-brand:hover,
     .navbar-brand:focus {
@@ -555,6 +552,12 @@ footer .footer-below {
     .navbar-nav>li>a:focus {
         color: $primary-color;
         background-color: transparent
+    }
+    .navbar-nav>li>a.hot-link,
+    .navbar-nav>li>a.hot-link:hover,
+    .navbar-nav>li>a.hot-link:focus {
+        color: $lightest-color;
+        background-color: $primary-color
     }
 }
 
