@@ -37,33 +37,10 @@ layout: home
     </div>
 </section>
 
-<section id="sponsorship">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Patrocínio</h2>
-                <hr class="star-light">
-            </div>
-        </div>
-        <div class="row">
-            tbd...
-        </div>
-    </div>
-</section>
+{% include schedule.html %}
 
-<section id="support">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Apoio e realização</h2>
-                <hr class="star-light">
-            </div>
-        </div>
-        <div class="row">
-            tbd...
-        </div>
-    </div>
-</section>
+{% include sponsorship.html %}
+{% include support.html %}
 
 {% if site.contact == "static" %}
 {% include contact_static.html %}
