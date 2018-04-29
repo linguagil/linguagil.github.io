@@ -13,6 +13,7 @@ $secondary-color: #23202B;
 $tertiary-color: #525766;
 $light-color: #9398A3;
 $lighter-color: #D2DEDB;
+$lightest-color: white;
 
 
 // Overrinding boostrap
@@ -93,10 +94,10 @@ hr.star-primary:after {
 
 // Star light
 hr.star-light {
-    border-color: $lighter-color;
+    border-color: $lightest-color;
 }
 hr.star-light:after {
-    color: $lighter-color;
+    color: $lightest-color;
     background-color: $primary-color;
 }
 
@@ -114,6 +115,8 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+
+// Header
 header {
     text-align: center;
     color: $tertiary-color;
@@ -135,8 +138,8 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 0;
+    padding-top: 120px;
+    padding-bottom: 100px;
 }
 
 header img {
@@ -144,16 +147,19 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
-    display: block;
-    // text-transform: uppercase;
-    font-size: 2em;
-    font-weight: 500;
-}
-
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+header .intro-text {
+    h1,h2 {
+        color: $lightest-color;
+    }
+    h1 {
+        display: block;
+        font-size: 3.5em;
+        //font-weight: 500;
+    }
+    h2 {
+        font-size: 2em;
+        font-weight: lighter;
+    }
 }
 
 @media(min-width:768px) {
@@ -169,15 +175,15 @@ header .intro-text .skills {
 
     header .container {
         padding-top: 180px;
-        padding-bottom: 0;
     }
 
-    header .intro-text .name {
-        font-size: 4.75em;
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em;
+    header .intro-text {
+        h1 {
+            font-size: 4.75em;
+        }
+        h2 {
+            font-size: 3em;
+        }
     }
 }
 
