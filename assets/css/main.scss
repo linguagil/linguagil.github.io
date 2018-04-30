@@ -226,7 +226,7 @@ img.event-brand-symbol {
 }
 
 .navbar-fixed-top img.navbar-brand-img {
-    width: 250px;
+    width: 120px;
 }
 
 @media(min-width:768px) {
@@ -235,6 +235,10 @@ img.event-brand-symbol {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+    }
+
+    .navbar-fixed-top img.navbar-brand-img {
+        width: 250px;
     }
 
     .navbar-fixed-top .navbar-brand {
