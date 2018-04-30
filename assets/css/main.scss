@@ -172,6 +172,34 @@ header .intro-text {
     }
 }
 
+ .brand-wrapper {
+     display: flex;
+     flex-direction: row;
+     align-items: baseline; /* NEW */
+     justify-content: center;
+
+ }
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline; /* NEW */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img.event-brand-symbol {
+    margin: 0;
+    width: 100px;
+}
+
+.event-brand-text h1,
+.event-brand-year h1{
+    font-family: 'Chicle', cursive;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+
 @media(min-width:768px) {
     header {
         .img-banner {
@@ -197,6 +225,10 @@ header .intro-text {
     }
 }
 
+.navbar-fixed-top img.navbar-brand-img {
+    width: 250px;
+}
+
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -206,7 +238,7 @@ header .intro-text {
     }
 
     .navbar-fixed-top .navbar-brand {
-        padding: 15px 15px;
+        padding: 5px;
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -214,11 +246,16 @@ header .intro-text {
     }
 
     .navbar-fixed-top.navbar-shrink {
+
         padding: 10px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
+        padding: 15px;
         font-size: 1.5em;
+    }
+    .navbar-fixed-top.navbar-shrink img.navbar-brand-img {
+        width: 150px;
     }
 }
 
