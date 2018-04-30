@@ -8,7 +8,7 @@
  */
 
 // https://color.adobe.com/A-Concrete-Emotion-color-theme-535363
-$primary-color: #FF1966;
+$primary-color: #cb202d;
 $secondary-color: #23202B;
 $tertiary-color: #525766;
 $light-color: #9398A3;
@@ -124,7 +124,9 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: $tertiary-color;
-    background-color: $primary-color;
+    background-image: url(../images/color-wheel.svg);
+    background-position: bottom;
+    background-size: 2000px;
 }
 
 header {
@@ -160,7 +162,7 @@ header .intro-text {
     }
     h1 {
         display: block;
-        font-size: 3em;
+        font-size: 4em;
     }
     h2 {
         font-size: 2em;
@@ -168,6 +170,36 @@ header .intro-text {
     h3 {
         font-size: 1.4em;
     }
+}
+
+
+.brand-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline; /* NEW */
+    justify-content: center;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline; /* NEW */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.event-brand-text h1,
+.event-brand-year h1{
+    font-family: 'Chicle', cursive;
+    font-weight: 100;
+    margin: 0;
+    padding-left: 15px;
+
+}
+
+img.event-brand-symbol {
+    margin: 0;
+    width: 75px;
 }
 
 @media(min-width:768px) {
@@ -193,6 +225,15 @@ header .intro-text {
             font-size: 3em;
         }
     }
+
+    img.event-brand-symbol {
+        margin: 0;
+        width: 100px;
+    }
+}
+
+.navbar-fixed-top img.navbar-brand-img {
+    width: 120px;
 }
 
 @media(min-width:768px) {
@@ -203,8 +244,12 @@ header .intro-text {
         transition: padding .3s;
     }
 
+    .navbar-fixed-top img.navbar-brand-img {
+        width: 250px;
+    }
+
     .navbar-fixed-top .navbar-brand {
-        padding: 15px 15px;
+        padding: 5px;
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -212,11 +257,16 @@ header .intro-text {
     }
 
     .navbar-fixed-top.navbar-shrink {
+
         padding: 10px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
+        padding: 15px;
         font-size: 1.5em;
+    }
+    .navbar-fixed-top.navbar-shrink img.navbar-brand-img {
+        width: 150px;
     }
 }
 
