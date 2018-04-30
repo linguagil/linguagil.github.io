@@ -8,7 +8,7 @@
  */
 
 // https://color.adobe.com/A-Concrete-Emotion-color-theme-535363
-$primary-color: #FF1966;
+$primary-color: #cb202d;
 $secondary-color: #23202B;
 $tertiary-color: #525766;
 $light-color: #9398A3;
@@ -124,7 +124,9 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: $tertiary-color;
-    background-color: $primary-color;
+    background-image: url(../images/color-wheel.svg);
+    background-position: bottom;
+    background-size: 2000px;
 }
 
 header {
@@ -160,7 +162,7 @@ header .intro-text {
     }
     h1 {
         display: block;
-        font-size: 3em;
+        font-size: 5em;
     }
     h2 {
         font-size: 2em;
