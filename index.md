@@ -23,22 +23,6 @@ layout: home
 {% include about.html %}
 {% include c4p.html %}
 
-<section class="success" id="venue">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Local</h2>
-                <hr class="star-light">
-            </div>
-        </div>
-        <div class="row">
-            tbd...
-        </div>
-    </div>
-</section>
-
-{% include schedule.html %}
-
 {% include support.html %}
 
 {% if site.contact == "static" %}
