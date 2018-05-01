@@ -10,9 +10,9 @@ Certifique-se de você tem o docker instalado
 
     $ git clone git@github.com:linguagil/2018.git
     $ cd 2018
-    $ make watch
-    
-Abra o arquivo ```2018/_site/index.html```
+    $ make serve
+
+Abra a url: http://0.0.0.0:4000/
 
 ## Como participar da organização
 
