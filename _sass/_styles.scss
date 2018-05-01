@@ -1,0 +1,18 @@
+@import "variables";
+@import "bootstrap-theme";
+
+.navbar-fixed-top img.navbar-brand-img {
+    transition: width ease-in-out .2s;
+}
+
+#intro-content {
+    min-height: 100vh;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+hr.star-primary::after {
+    content: none;
+}
