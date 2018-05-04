@@ -23,6 +23,7 @@ layout: home
 {% include about.html %}
 {% include c4p.html %}
 
+{% include sponsorship.html %}
 {% include support.html %}
 
 {% if site.contact == "static" %}
