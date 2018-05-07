@@ -21,6 +21,9 @@ layout: home
 {% include nav.html %}
 {% include header.html %}
 {% include about.html %}
+
+{% include schedule.html %}
+
 {% include c4p.html %}
 
 {% include sponsorship.html %}
