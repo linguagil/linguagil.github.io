@@ -631,6 +631,19 @@ footer .footer-below {
             color: black;
         }
     }
+    .date {
+        color: $light-color;
+        h2 {
+            color: $light-color;
+        }
+        border-bottom: 5px solid $light-color;
+        padding-bottom: 17px;
+    }
+}
+
+.schedule-grid-day {
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 @media(max-width:768px) {
