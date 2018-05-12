@@ -74,3 +74,80 @@
   description: 1- Falarei como surgiu a ideia de desenvolver o game; 2- Explicar quais foram os primeiros passos (tecnologias escolhidas); 3-  dificuldades no desenvolvimento - linguagem utilizada, etc; 4- Ideias pro futuro; 5- Desafio valendo brinde.
   github: test
   twitter: test
+
+- ref: 8
+  avatar: palestrante02.jpeg
+  name: Samuel Moro Bergamo Cavalcante
+  city: city
+  company: Test
+  bio: bio
+  talk: Usando o Retrô Poker
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 9
+  avatar: palestrante02.jpeg
+  name: Thyago Rebelato
+  city: city
+  company: Test
+  bio: bio
+  talk: O que é produtividade nessa nova era?
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 10
+  avatar: palestrante02.jpeg
+  name: Lorena Caldas
+  city: city
+  company: Test
+  bio: bio
+  talk: O papel do QA na cultura ágil
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 11
+  avatar: palestrante02.jpeg
+  name: Marcos Quintanilha
+  city: city
+  company: Test
+  bio: bio
+  talk: Ecossistema ANA - Transformando a Operação dos Serviços da Rede.
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 12
+  avatar: palestrante02.jpeg
+  name: Thiago Colares
+  city: city
+  company: Test
+  bio: bio
+  talk: O Agilista Pragmático
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 13
+  avatar: palestrante02.jpeg
+  name: Fernanda Santos
+  city: city
+  company: Test
+  bio: bio
+  talk: Design Thinking como ferramenta de inovação
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 14
+  avatar: palestrante02.jpeg
+  name: Rafael Zampieri de Oliveira
+  city: city
+  company: Test
+  bio: bio
+  talk: Como uma dinâmica de Planning II pode ajudar na formação de bons profissionais
+  description: desc
+  github: test
+  twitter: test
