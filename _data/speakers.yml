@@ -1,29 +1,153 @@
 - ref: 1
   avatar: palestrante01.jpeg
-  name: Adele Goldstine
+  name: Glauber Sampaio
   company: Bli Co.
-  bio: Full Stack Developer na Bli. Apaixonada por desenvolvimento web, phasellus sollicitudin purus turpis, sit amet elementum diam varius ultricies.
-  talk: Desenvolvendo apps com sociosqu ad litora
-  description: Você precisa saber como class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum semper volutpat placerat.
-  github: colares
-  twitter: thicolares
+  city: Salvador, BA
+  bio: Graduado em Análise e Desenvolvimento de Sistemas pela UNIJORGE, Scrum Master certificado pela Scrum Alliance e com mais de 10 anos de experiência em TI, atuei nos setores da Indústria, Comércio e Governo como Analista de Infraestrutura e Automação Industrial, Analista de Sistemas, Desenvolvedor Poliglota, Arquiteto de Software, Instrutor Interno, Product Owner e Scrum Master. Atualmente sou Consultor Técnico da Companhia de Processamento de Dados do Estado da Bahia (PRODEB) trabalhando em Times Ágeis para projetos de e-Gov.
+  talk: Agilidade nas Organizações - O Despertar da Força
+  description: Quais desafios os Jedis (Agilistas) enfrentam para difundir o Ágil nas Organizações e como o Império (Cultura Organizacional) pode colocar tudo a perder? Numa analogia com o clássico dos cinemas, veremos como podemos ser Luke ao invés de Anakin :D
+  github: test
+  twitter: test
 
 - ref: 2
   avatar: palestrante02.jpeg
-  name: Fran Bilas
+  name: Maisa Fonseca
+  city: Rio de Janeiro, RJ
   company: ACME Corp.
   bio: Desenvolvedora de maecenas ut mauris nec tellus dignissim dignissim. Nullam eu lacinia lectus. Nulla hendrerit turpis vel maximus iaculis.
-  talk: Como implantar dignissim nisi
-  description: As ferramentas de ut semper, est interdum venenatis venenatis, lacus ante egestas urna, a elementum augue felis et risus. Sed cursus pretium sem eget mattis.
-  github: colares
-  twitter: thicolares
+  talk: Ágil para toda obra
+  description: Curti ágil mas não sou de TI, e agora? Da cozinha ao palco, passando por um estúdio de dublagem, alguns conceitos para ajudar você a usar ágil em qualquer lugar.
+  github: test
+  twitter: test
 
 - ref: 3
-  avatar: palestrante03.jpeg
-  name: Ray Tomlinson
-  company: Empresas Wayne
-  bio: Lider de nullam et lacinia lectus. Nulla hendrerit turpis vel maximus iaculis. Nullam sed bibendum nisl. Proin ullamcorper vel ligula ut accumsan.
-  talk: 3 passos para vitae orci varius varius
-  description: A processo de implantação de quisque vestibulum metus sit amet sodales maximus. Ut semper, est interdum venenatis venenatis.
-  github: colares
-  twitter: thicolares
+  avatar: palestrante02.jpeg
+  name: Matheus Cardoso
+  city: Feira de Santana, BA
+  company: ACME Corp.
+  bio: Formado em Redes de Computadores pela Estacio/BA e Especialista em Arquitetura de Redes e Cloud Computing pela FIAP/SP, sou um dos evagelistas do desenvolvimento Ágil e inovações para Networking no Grupo Santander Tecnologia.
+  talk: Você await o async direito?
+  description: Uma rápida palestra para mostrar como usar o Async/Await do ES6 para aproveitar melhor a execução concorrente de funções.
+  github: test
+  twitter: test
+
+- ref: 4
+  avatar: palestrante02.jpeg
+  name: Aline Ayres
+  city: Recife, PE
+  company: ThoughtWorks
+  bio: Atualmente é consultora de desenvolvimento na ThoughtWorks. Com  experiência no desenvolvimento de software, tem foco em  desenvolvimento web e mobile, android, linguagens de programação mobile, clean code e práticas de desenvolvimento agile.
+  talk: Kotlin no Android
+  description: Apresentar sintaxe e hacks interessante sobre a linguagem com Android e porque tem se tornado uma linguagem que tem sido muito adotada pela comunidade de desenvolvedores Android.
+  github: test
+  twitter: test
+
+- ref: 5
+  avatar: palestrante02.jpeg
+  name: Bruno Cabral
+  city: Salvador, BA
+  company: Potelo
+  bio: CEO da Potelo, startup responsável pelo Escavador  É mestre em Ciência da Computação pela UFBA, com graduação sanduíche pela UFBA/University of Washington, com pós em Machine Learning, e programador open source no tempo livre em projetos como o DreaMule e GNUNet.
+  talk: Tá lento! O que fazer quando não dá para colocar mais um servidor
+  description: Milhões de visitas e pouco dinheiro. E agora? Vamos falar para iniciantes de profiling, ferramentas de monitoramento, estruturas de dados, hardware e nossos truques para fazer um sistema rápido sem prejudicar o dia-a-dia do desenvolvimento.
+  github: test
+  twitter: test
+
+- ref: 6
+  avatar: palestrante02.jpeg
+  name: Larissa Bastos
+  city: Salvador, BA
+  company: Test
+  bio: Cursando Análise e Desenvolvimento de Sistemas, formada como técnica em informática. Trabalho com desenvolvimento de sistemas (estágio), mas ja obtive experiência na área de testes e qualidade de software (minha paixão ♡). Já escrevi artigos científicos, e faço parte de suas iniciações científicas na faculdade.
+  talk: LogicaMente - da idéia ao Desenvolvimento
+  description: 1- Falarei como surgiu a ideia de desenvolver o game; 2- Explicar quais foram os primeiros passos (tecnologias escolhidas); 3-  dificuldades no desenvolvimento - linguagem utilizada, etc; 4- Ideias pro futuro; 5- Desafio valendo brinde.
+  github: test
+  twitter: test
+
+- ref: 7
+  avatar: palestrante02.jpeg
+  name: Fred Santoro
+  city: São Paulo, SP
+  company: Test
+  bio: Cursando Análise e Desenvolvimento de Sistemas, formada como técnica em informática. Trabalho com desenvolvimento de sistemas (estágio), mas ja obtive experiência na área de testes e qualidade de software (minha paixão ♡). Já escrevi artigos científicos, e faço parte de suas iniciações científicas na faculdade.
+  talk: Startup é coisa de maluco
+  description: 1- Falarei como surgiu a ideia de desenvolver o game; 2- Explicar quais foram os primeiros passos (tecnologias escolhidas); 3-  dificuldades no desenvolvimento - linguagem utilizada, etc; 4- Ideias pro futuro; 5- Desafio valendo brinde.
+  github: test
+  twitter: test
+
+- ref: 8
+  avatar: palestrante02.jpeg
+  name: Samuel Moro Bergamo Cavalcante
+  city: city
+  company: Test
+  bio: bio
+  talk: Usando o Retrô Poker
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 9
+  avatar: palestrante02.jpeg
+  name: Thyago Rebelato
+  city: city
+  company: Test
+  bio: bio
+  talk: O que é produtividade nessa nova era?
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 10
+  avatar: palestrante02.jpeg
+  name: Lorena Caldas
+  city: city
+  company: Test
+  bio: bio
+  talk: O papel do QA na cultura ágil
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 11
+  avatar: palestrante02.jpeg
+  name: Marcos Quintanilha
+  city: city
+  company: Test
+  bio: bio
+  talk: Ecossistema ANA - Transformando a Operação dos Serviços da Rede.
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 12
+  avatar: palestrante02.jpeg
+  name: Thiago Colares
+  city: city
+  company: Test
+  bio: bio
+  talk: O Agilista Pragmático
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 13
+  avatar: palestrante02.jpeg
+  name: Fernanda Santos
+  city: city
+  company: Test
+  bio: bio
+  talk: Design Thinking como ferramenta de inovação
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 14
+  avatar: palestrante02.jpeg
+  name: Rafael Zampieri de Oliveira
+  city: city
+  company: Test
+  bio: bio
+  talk: Como uma dinâmica de Planning II pode ajudar na formação de bons profissionais
+  description: desc
+  github: test
+  twitter: test
