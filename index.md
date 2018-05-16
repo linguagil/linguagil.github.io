@@ -22,9 +22,8 @@ layout: home
 {% include header.html %}
 {% include about.html %}
 
+{% include speakers_grid.html %}
 {% include schedule.html %}
-
-{% include c4p.html %}
 
 {% include sponsorship.html %}
 {% include support.html %}
