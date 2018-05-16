@@ -22,6 +22,7 @@ layout: home
 {% include header.html %}
 {% include about.html %}
 
+{% include speakers_grid.html %}
 {% include schedule.html %}
 
 {% include sponsorship.html %}
