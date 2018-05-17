@@ -66,15 +66,14 @@
   twitter: test
 
 - ref: 7
-  avatar:
+  avatar: fred-santoro.png
   name: Fred Santoro
   city: São Paulo, SP
-  company: Test
-  bio: Cursando Análise e Desenvolvimento de Sistemas, formada como técnica em informática. Trabalho com desenvolvimento de sistemas (estágio), mas ja obtive experiência na área de testes e qualidade de software (minha paixão ♡). Já escrevi artigos científicos, e faço parte de suas iniciações científicas na faculdade.
-  talk: Startup é coisa de maluco
-  description: 1- Falarei como surgiu a ideia de desenvolver o game; 2- Explicar quais foram os primeiros passos (tecnologias escolhidas); 3-  dificuldades no desenvolvimento - linguagem utilizada, etc; 4- Ideias pro futuro; 5- Desafio valendo brinde.
-  github: test
-  twitter: test
+  company: Safeticket, Lovoo, ZigPay
+  bio: Sócio da Safeticket (mais de 10 milhões de ingressos emitidos). Diretor LATAM do app Lovoo (mais de 70 milhões de downloads no mundo), co-founder ZigPay e Alimentto
+  description: Cases sobre startups diretamente de quem já passou por isso várias vezes
+  github:
+  twitter: FredericSantoro
 
 - ref: 8
   avatar:
