@@ -11,7 +11,7 @@
         <div class="row">
             {% for speaker in site.data.speakers %}
                 {% if speaker.avatar != null %}
-            <div class="col-sm-12 speaker-item">
+            <div class="col-sm-6 speaker-item">
                 <a href="#speakerModal-{{ speaker.ref }}" class="speaker-link" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
@@ -20,7 +20,7 @@
                     </div>
                     <img src="assets/images/speakers/{{ speaker.avatar }}" class="img-responsive" alt="{{ speaker.name }}">
                     <h4>{{ speaker.name }}</h4>
-                    <h5>{{ speaker.company }}, {{ speaker.city }}</h5>
+                    <h5>{{ speaker.company }}. {{ speaker.city }}</h5>
                 </a>
             </div>
                 {% endif %}
