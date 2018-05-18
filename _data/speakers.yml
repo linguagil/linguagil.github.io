@@ -55,15 +55,14 @@
   twitter: test
 
 - ref: 6
-  avatar:
+  avatar: larissa-bastos.png
   name: Larissa Bastos
   city: Salvador, BA
-  company: Test
-  bio: Cursando Análise e Desenvolvimento de Sistemas, formada como técnica em informática. Trabalho com desenvolvimento de sistemas (estágio), mas ja obtive experiência na área de testes e qualidade de software (minha paixão ♡). Já escrevi artigos científicos, e faço parte de suas iniciações científicas na faculdade.
-  talk: LogicaMente - da idéia ao Desenvolvimento
-  description: 1- Falarei como surgiu a ideia de desenvolver o game; 2- Explicar quais foram os primeiros passos (tecnologias escolhidas); 3-  dificuldades no desenvolvimento - linguagem utilizada, etc; 4- Ideias pro futuro; 5- Desafio valendo brinde.
-  github: test
-  twitter: test
+  company: Triviway
+  bio: Cursando Análise e Desenvolvimento de Sistemas, formada como técnica em informática. Trabalho com desenvolvimento de sistemas (estágio), mas ja obtive experiência na área de testes e qualidade de software (minha paixão ♡). Já escrevi artigos científicos e faço parte de suas iniciações científicas na faculdade.
+  talk: LogicaMente -- da idéia ao Desenvolvimento
+  description: 1. Como surgiu a ideia de desenvolver o game; 2. Quais foram os primeiros passos (tecnologias escolhidas); 3. Dificuldades no desenvolvimento, linguagem utilizada etc; 4. Ideias pro futuro; 5. Desafio valendo brinde.
+  linkedin: larissa-bastos-ctfl-04b15ba4
 
 - ref: 7
   avatar: fred-santoro.png
