@@ -76,15 +76,16 @@
   twitter: FredericSantoro
 
 - ref: 8
-  avatar:
+  avatar: samuel-cavalcante.png
   name: Samuel Moro Bergamo Cavalcante
-  city: city
-  company: Test
-  bio: bio
+  city: São Paulo, SP
+  company: Knowledge21
+  bio: Samuel Cavalcante é eng. de computação e especialista em eng. de sistemas que descobriu ser apaixonados por trabalhar com pessoas, comunidades e transformação cultural. Tornando-se Facilitator Management 3.0 e Agile Coach na K21. Certified CSM, CSD, CSPO, CSP e Kanban, com experiência em formação de equipes, processos enxutos e facilitação, sendo muito criativo quando se trata de retrospectivas. Trabalhou como ScrumMaster na Digix onde usou fortemente os princípios ágeis e do framework Scrum, Kanban e práticas do MGT3.0, auxiliando os times e criarem melhores formas de trabalhar entregando software que o cliente use. Trabalhou como professor de educação superior, usando a cultura ágil para ministrar aulas mais interativas.
   talk: Usando o Retrô Poker
-  description: desc
-  github: test
-  twitter: test
+  description: Como você escolhe as retrospectivas para o seu time? Neste bate papo pretendo apresentar o Retrô Poker para auxiliar você a entender o contexto atual do seu time e escolher a retrospectiva que mais se aproxime deste cenário.
+  github: samuelmbc
+  twitter: samuelmbc
+  linkedin: samuelmbc
 
 - ref: 9
   avatar:
