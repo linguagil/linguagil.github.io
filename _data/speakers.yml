@@ -10,17 +10,6 @@
   twitter: glaubersamp
   github:
 
-- ref: 2
-  avatar:
-  name: Maisa Fonseca
-  city: Rio de Janeiro, RJ
-  company: ACME Corp.
-  bio: Desenvolvedora de maecenas ut mauris nec tellus dignissim dignissim. Nullam eu lacinia lectus. Nulla hendrerit turpis vel maximus iaculis.
-  talk: Ágil para toda obra
-  description: Curti ágil mas não sou de TI, e agora? Da cozinha ao palco, passando por um estúdio de dublagem, alguns conceitos para ajudar você a usar ágil em qualquer lugar.
-  github: test
-  twitter: teste
-
 - ref: 3
   avatar:
   name: Matheus Cardoso
@@ -29,28 +18,6 @@
   bio: Formado em Redes de Computadores pela Estacio/BA e Especialista em Arquitetura de Redes e Cloud Computing pela FIAP/SP, sou um dos evagelistas do desenvolvimento Ágil e inovações para Networking no Grupo Santander Tecnologia.
   talk: Você await o async direito?
   description: Uma rápida palestra para mostrar como usar o Async/Await do ES6 para aproveitar melhor a execução concorrente de funções.
-  github: test
-  twitter: test
-
-- ref: 4
-  avatar:
-  name: Aline Ayres
-  city: Recife, PE
-  company: ThoughtWorks
-  bio: Atualmente é consultora de desenvolvimento na ThoughtWorks. Com  experiência no desenvolvimento de software, tem foco em  desenvolvimento web e mobile, android, linguagens de programação mobile, clean code e práticas de desenvolvimento agile.
-  talk: Kotlin no Android
-  description: Apresentar sintaxe e hacks interessante sobre a linguagem com Android e porque tem se tornado uma linguagem que tem sido muito adotada pela comunidade de desenvolvedores Android.
-  github: test
-  twitter: test
-
-- ref: 5
-  avatar:
-  name: Bruno Cabral
-  city: Salvador, BA
-  company: Potelo
-  bio: CEO da Potelo, startup responsável pelo Escavador  É mestre em Ciência da Computação pela UFBA, com graduação sanduíche pela UFBA/University of Washington, com pós em Machine Learning, e programador open source no tempo livre em projetos como o DreaMule e GNUNet.
-  talk: Tá lento! O que fazer quando não dá para colocar mais um servidor
-  description: Milhões de visitas e pouco dinheiro. E agora? Vamos falar para iniciantes de profiling, ferramentas de monitoramento, estruturas de dados, hardware e nossos truques para fazer um sistema rápido sem prejudicar o dia-a-dia do desenvolvimento.
   github: test
   twitter: test
 
