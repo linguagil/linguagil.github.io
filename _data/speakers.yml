@@ -131,3 +131,14 @@
   description: desc
   github: test
   twitter: test
+
+- ref: 15
+  avatar:
+  name: Rafaela Sampaio e Raphael Montenegro
+  city: city
+  company: Test
+  bio: bio
+  talk: O impacto do trabalho puxado, e não empurrado, na qualidade de vida
+  description: desc
+  github: test
+  twitter: test
