@@ -102,7 +102,7 @@
   avatar: luciano-lima.png
   name: Luciano Lima
   city: Salvador, BA
-  company: Jusbrasil
+  company: Sanar
   bio: Perfeccionista, curioso, sempre ávido por novidades na área de tecnologia e amante de carros. Me graduei em Sistemas para Internet na Unifacs, especialização em Componentes Distribuídos na Ruy Barbosa. Trabalhei inicialmente com projetos web com PHP, MySQL, Apache e Nginx, usando infraestrutura da Amazon Web Services, Digital Ocean, entre outras, migrei para mobile em 2012 onde passei por projetos feitos em Cordova, Apps Nativos para Android e iOS e desde 2016 in love com React e React Native.
   talk: Por que o React Native é uma boa escolha como ferramenta de criação de apps para dispositivos móveis
   description: Nessa breve palestra, serão abordadas as características que explicam o porquê o React Native é tão interessante para usar. Abordarei além disso, alguns cases brasileiros e internacionais de uso do React Native como solução mobile.
