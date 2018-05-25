@@ -56,7 +56,7 @@
 
 - ref: 8
   avatar: samuel-cavalcante.png
-  name: Samuel Moro Bergamo Cavalcante
+  name: Samuel Cavalcante
   city: São Paulo, SP
   company: Knowledge21
   bio: Samuel Cavalcante é eng. de computação e especialista em eng. de sistemas que descobriu ser apaixonados por trabalhar com pessoas, comunidades e transformação cultural. Tornando-se Facilitator Management 3.0 e Agile Coach na K21. Certified CSM, CSD, CSPO, CSP e Kanban, com experiência em formação de equipes, processos enxutos e facilitação, sendo muito criativo quando se trata de retrospectivas. Trabalhou como ScrumMaster na Digix onde usou fortemente os princípios ágeis e do framework Scrum, Kanban e práticas do MGT3.0, auxiliando os times e criarem melhores formas de trabalhar entregando software que o cliente use. Trabalhou como professor de educação superior, usando a cultura ágil para ministrar aulas mais interativas.
@@ -143,3 +143,17 @@
   description: desc
   github: test
   twitter: test
+
+## MINICURSO
+
+- ref: 16
+  avatar: robson-peixoto.png
+  name: Robson Peixoto
+  city: Salvador, BA
+  company: Stone Pagamentos
+  bio: DevOps na Stone com mais de 10 anos de experiência em desenvolvimento e infraestrutura de softwares de alta performance e de alta concorrência.
+  talk: Prometheus 101
+  description: "Conheça o casal 20 do monitoramento: Prometheus <3 Granafa!"
+  github: robsonpeixoto
+  twitter: robinhopeixoto
+  twitter: robsonpeixoto

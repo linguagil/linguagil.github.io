@@ -13,29 +13,15 @@
                     <h2 class="time">08/06</h2>
                 </div>
                 <div class="date">
-                    <h2>Sexta-feira</h2>
+                    <h2>Sexta-feira, minicursos no laboratório Lab1</h2>
                 </div>
 
-                {% include schedule_checkpoint.html time="" title="Dia inteiro de cursos, workshops e treinamentos a definir." %}
-
-                {% comment %}
-                    {% include schedule_checkpoint.html time="8h" title="Credenciamento" %}
-                    {% include schedule_checkpoint.html time="9h" title="Abertura do evento" %}
-
-                    {% assign speaker = site.data.speakers[0] %}
-                    {% include schedule_speaker.html speaker=speaker %}
-
-                    {% assign speaker = site.data.speakers[1] %}
-                    {% include schedule_speaker.html speaker=speaker %}
+                    {% assign speaker = site.data.speakers[13] %}
+                    {% include schedule_speaker.html time="8h" speaker=speaker %}
 
                     {% include schedule_checkpoint.html time="10h20" title="Coffe break" %}
+                    {% include schedule_checkpoint.html time="12" title="Almoço" %}
 
-                    {% assign speaker = site.data.speakers[2] %}
-                    {% include schedule_speaker.html speaker=speaker %}
-
-                    {% include schedule_checkpoint.html time="12h" title="Almoço" %}
-                    {% include schedule_checkpoint.html time="13h50" title="Abertura da tarde" %}
-                {% endcomment %}
             </div>
         </div>
 
@@ -45,7 +31,7 @@
                     <h2 class="time">09/06</h2>
                 </div>
                 <div class="date">
-                    <h2>Sábado</h2>
+                    <h2>Sábado, palestras no auditório do IME</h2>
                 </div>
 
                 {% include schedule_checkpoint.html time="8h" title="Credenciamento" %}
