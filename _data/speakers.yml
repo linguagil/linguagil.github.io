@@ -157,3 +157,17 @@
   github: robsonpeixoto
   twitter: robinhopeixoto
   twitter: robsonpeixoto
+
+- ref: 16
+  avatar:
+  name: Hugo de Souza
+  city: Salvador, BA
+  company: Test
+  bio: bio
+  talk: SASS - Dando super-poderes ao seu CSS
+  description: desc
+  github: test
+  twitter: test
+
+
+
