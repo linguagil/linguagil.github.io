@@ -627,6 +627,9 @@ footer .footer-below {
             color: $light-color;
             text-align: right;
         }
+        &.pseudo-checkpoint {
+            color: $primary-light-color;
+        }
         &.checkpoint {
             color: black;
         }

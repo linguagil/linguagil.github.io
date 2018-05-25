@@ -180,5 +180,16 @@
   github: test
   twitter: test
 
+- ref: 18
+  avatar:
+  name: Vinicius Nakamura
+  city: Salvador, BA
+  company: Test
+  bio: bio
+  talk: Treinamento Lean Inception - Direto Ao Ponto, de Paulo Caroli
+  description: desc
+  github: test
+  twitter: test
+
 
 
