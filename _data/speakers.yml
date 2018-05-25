@@ -169,5 +169,16 @@
   github: test
   twitter: test
 
+- ref: 17
+  avatar:
+  name: Luiz Cláudio Silva
+  city: Salvador, BA
+  company: Test
+  bio: bio
+  talk: Aplicações Web Python na Nuvem
+  description: desc
+  github: test
+  twitter: test
+
 
 
