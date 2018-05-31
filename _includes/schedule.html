@@ -13,29 +13,54 @@
                     <h2 class="time">08/06</h2>
                 </div>
                 <div class="date">
-                    <h2>Sexta-feira</h2>
+                    <h2>Sexta-feira, treinamento na sala 1</h2>
                 </div>
 
-                {% include schedule_checkpoint.html time="" title="Dia inteiro de cursos, workshops e treinamentos a definir." %}
+                {% assign speaker = site.data.speakers[16] %}
+                {% include schedule_speaker.html time="9h" speaker=speaker note="<a href='https://www.sympla.com.br/treinamento-lean-inception---direto-ao-ponto-em-salvador__283366'><strong>Inscreva-se!</strong></a> <strong>A inscrição para essa atividade deve ser feita separadamente</strong> e contempla ingresso para o LinguÁgil 2018 enquanto houver vaga no evento."%}
 
-                {% comment %}
-                    {% include schedule_checkpoint.html time="8h" title="Credenciamento" %}
-                    {% include schedule_checkpoint.html time="9h" title="Abertura do evento" %}
 
-                    {% assign speaker = site.data.speakers[0] %}
-                    {% include schedule_speaker.html speaker=speaker %}
+                {% include schedule_checkpoint.html time="18" title="Encerramento" %}
 
-                    {% assign speaker = site.data.speakers[1] %}
-                    {% include schedule_speaker.html speaker=speaker %}
+            </div>
+        </div>
 
-                    {% include schedule_checkpoint.html time="10h20" title="Coffe break" %}
+        <div class="row flexbox-center schedule-grid-day">
+            <div class="schedule-grid" style="width: 100%">
+                <div class="date">
+                    <h2 class="time">08/06</h2>
+                </div>
+                <div class="date">
+                    <h2>Sexta-feira, minicursos no laboratório 1</h2>
+                </div>
 
-                    {% assign speaker = site.data.speakers[2] %}
-                    {% include schedule_speaker.html speaker=speaker %}
+                {% assign speaker = site.data.speakers[13] %}
+                {% include schedule_speaker.html time="8h" speaker=speaker note="20 min de pausa para café e quitutes"%}
 
-                    {% include schedule_checkpoint.html time="12h" title="Almoço" %}
-                    {% include schedule_checkpoint.html time="13h50" title="Abertura da tarde" %}
-                {% endcomment %}
+                {% include schedule_checkpoint.html time="12" title="Almoço" %}
+
+                {% assign speaker = site.data.speakers[14] %}
+                {% include schedule_speaker.html time="14h" speaker=speaker note="20 min de pausa para café e quitutes"%}
+
+                {% include schedule_checkpoint.html time="18" title="Encerramento" %}
+
+            </div>
+        </div>
+
+        <div class="row flexbox-center schedule-grid-day">
+            <div class="schedule-grid" style="width: 100%">
+                <div class="date">
+                    <h2 class="time">08/06</h2>
+                </div>
+                <div class="date">
+                    <h2>Sexta-feira, minicursos no laboratório 2</h2>
+                </div>
+
+                {% assign speaker = site.data.speakers[15] %}
+                {% include schedule_speaker.html time="14h" speaker=speaker note="20 min de pausa para café e quitutes"%}
+
+                {% include schedule_checkpoint.html time="18" title="Encerramento" %}
+
             </div>
         </div>
 
@@ -45,7 +70,7 @@
                     <h2 class="time">09/06</h2>
                 </div>
                 <div class="date">
-                    <h2>Sábado</h2>
+                    <h2>Sábado, palestras no auditório do IME</h2>
                 </div>
 
                 {% include schedule_checkpoint.html time="8h" title="Credenciamento" %}
@@ -62,14 +87,14 @@
                 {% assign speaker = site.data.speakers[2] %}
                 {% include schedule_speaker.html speaker=speaker %}
 
+                {% include schedule_checkpoint.html time="12h" title="Almoço" %}
+                {% include schedule_checkpoint.html time="13h" title="Abertura da tarde" %}
+
                 {% assign speaker = site.data.speakers[3] %}
                 {% include schedule_speaker.html speaker=speaker %}
 
                 {% assign speaker = site.data.speakers[4] %}
                 {% include schedule_speaker.html speaker=speaker %}
-
-                {% include schedule_checkpoint.html time="12h" title="Almoço" %}
-                {% include schedule_checkpoint.html time="13h" title="Abertura da tarde" %}
 
                 {% assign speaker = site.data.speakers[5] %}
                 {% include schedule_speaker.html speaker=speaker %}
@@ -83,10 +108,10 @@
                 {% assign speaker = site.data.speakers[8] %}
                 {% include schedule_speaker.html speaker=speaker %}
 
+                {% include schedule_checkpoint.html time="16h" title="Coffe break" %}
+
                 {% assign speaker = site.data.speakers[9] %}
                 {% include schedule_speaker.html speaker=speaker %}
-
-                {% include schedule_checkpoint.html time="16h" title="Coffe break" %}
 
                 {% assign speaker = site.data.speakers[10] %}
                 {% include schedule_speaker.html speaker=speaker %}
@@ -97,12 +122,7 @@
                 {% assign speaker = site.data.speakers[12] %}
                 {% include schedule_speaker.html speaker=speaker %}
 
-                {% assign speaker = site.data.speakers[13] %}
-                {% include schedule_speaker.html speaker=speaker %}
-
-                {% include schedule_checkpoint.html time="17h30" title="Fishbowl" %}
-
-                {% include schedule_checkpoint.html time="18h" title="Encerramento" %}
+                {% include schedule_checkpoint.html time="18h" title="Fishbowl" %}
 
             </div>
         </div>

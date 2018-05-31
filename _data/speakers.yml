@@ -10,16 +10,28 @@
   twitter: glaubersamp
   github:
 
-- ref: 3
+- ref: 2
   avatar:
+  name: Thiago Colares
+  city: city
+  company: Test
+  bio: bio
+  talk: O Agilista Pragmático
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 3
+  avatar: matheus-cas.png
   name: Matheus Cardoso
   city: Feira de Santana, BA
-  company: ACME Corp.
+  company: Full stack web/mobile developer
   bio: Formado em Redes de Computadores pela Estacio/BA e Especialista em Arquitetura de Redes e Cloud Computing pela FIAP/SP, sou um dos evagelistas do desenvolvimento Ágil e inovações para Networking no Grupo Santander Tecnologia.
   talk: Você await o async direito?
   description: Uma rápida palestra para mostrar como usar o Async/Await do ES6 para aproveitar melhor a execução concorrente de funções.
-  github: test
-  twitter: test
+  github: matheuscas
+  twitter: matheuscas
+  linkedin: matheuscardoso
 
 - ref: 6
   avatar: larissa-bastos.png
@@ -44,7 +56,7 @@
 
 - ref: 8
   avatar: samuel-cavalcante.png
-  name: Samuel Moro Bergamo Cavalcante
+  name: Samuel Cavalcante
   city: São Paulo, SP
   company: Knowledge21
   bio: Samuel Cavalcante é eng. de computação e especialista em eng. de sistemas que descobriu ser apaixonados por trabalhar com pessoas, comunidades e transformação cultural. Tornando-se Facilitator Management 3.0 e Agile Coach na K21. Certified CSM, CSD, CSPO, CSP e Kanban, com experiência em formação de equipes, processos enxutos e facilitação, sendo muito criativo quando se trata de retrospectivas. Trabalhou como ScrumMaster na Digix onde usou fortemente os princípios ágeis e do framework Scrum, Kanban e práticas do MGT3.0, auxiliando os times e criarem melhores formas de trabalhar entregando software que o cliente use. Trabalhou como professor de educação superior, usando a cultura ágil para ministrar aulas mais interativas.
@@ -88,15 +100,16 @@
   twitter: test
 
 - ref: 12
-  avatar:
-  name: Thiago Colares
-  city: city
-  company: Test
-  bio: bio
-  talk: O Agilista Pragmático
-  description: desc
-  github: test
-  twitter: test
+  avatar: luciano-lima.png
+  name: Luciano Lima
+  city: Salvador, BA
+  company: Sanar
+  bio: Perfeccionista, curioso, sempre ávido por novidades na área de tecnologia e amante de carros. Me graduei em Sistemas para Internet na Unifacs, especialização em Componentes Distribuídos na Ruy Barbosa. Trabalhei inicialmente com projetos web com PHP, MySQL, Apache e Nginx, usando infraestrutura da Amazon Web Services, Digital Ocean, entre outras, migrei para mobile em 2012 onde passei por projetos feitos em Cordova, Apps Nativos para Android e iOS e desde 2016 in love com React e React Native.
+  talk: Por que o React Native é uma boa escolha como ferramenta de criação de apps para dispositivos móveis
+  description: Nessa breve palestra, serão abordadas as características que explicam o porquê o React Native é tão interessante para usar. Abordarei além disso, alguns cases brasileiros e internacionais de uso do React Native como solução mobile.
+  github: lucianoml
+  twitter: lucianoml
+  linkedin: lucianoml
 
 - ref: 13
   avatar:
@@ -120,14 +133,63 @@
   github: test
   twitter: test
 
-  ref: 15
+- ref: 15
   avatar:
-  name:  Rafaela Sampaio e Raphael Montenegro
-  city: Rio de Janeiro
-  company: Knowledge21
-  bio: Rafaela é Agile Coach na Knowledge21, ajudando times e organizações na transformação digital por meio da cultura ágil, atuando no dia a dia das equipes como facilitadora e promovendo o mindset ágil nas organizações. Já atuou como Analista de Negócios, Product Owner e Agile Coach no zoom.com.br, sendo responsável pela transformação ágil em times de Produto e TI. Além disso, já foi professora do curso de extensão de Requisitos Ágeis no CCE – PUC RIO e trabalhou com organizações como Furnas, Ministério do Planejamento, Ipiranga, CSN e Microsoft. É Mestre em Informática pela Unirio com foco em Planejamento Contínuo para o desenvolvimento de software.  Raphael possui 11 de anos de experiência em desenvolvimento de produtos digitais educacionais, atuei dentro de universidades, startups e multinacionais. Estou na K21 desde Janeiro de 2018, onde atuo como Agile Coach e Trainer, principalmente focado nos domínios de negócios, inovação, user experience e cultura. Comecei minha carreira como Game Designer e Ilustrador para jogos digitais educacionais e posteriormente desenvolvi minha carreira como Scrum Master e especialista de UX em times de desenvolvimento de jogos. Ao ingressar na Pearson Educação, iniciei minha carreira como Product Owner, onde pude colaborar na criação de produtos mobile, desktop e web como o Wizard Plus, em 2015, um programa de ensino blended e o Wiz.me, em 2017, aplicativo de estudo online para alunos da Wizard, maior curso de idiomas do Brasil, e também liderei inovação e pesquisa de novos produtos digitais para a Pearson, estando à frente do Lab de Inovação no período de 2016 até 2018.
+  name: Rafaela Sampaio e Raphael Montenegro
+  city: city
+  company: Test
+  bio: bio
   talk: O impacto do trabalho puxado, e não empurrado, na qualidade de vida
-  description: O trabalho puxado proporciona maior liberdade criativa, auto-organização, motivação e engajamento, vamos falar de como esses aspectos podem influenciar positiva ou negativamente a vida dos trabalhadores do conhecimento.
+  description: desc
   github: test
-  twitter: rafaelafsampaio e raphamontenegro
-  linkedin: rafaela-sampaio e raphael-montenegro-669492105
+  twitter: test
+
+## MINICURSO
+
+- ref: 16
+  avatar: robson-peixoto.png
+  name: Robson Peixoto
+  city: Salvador, BA
+  company: Stone Pagamentos
+  bio: DevOps na Stone com mais de 10 anos de experiência em desenvolvimento e infraestrutura de softwares de alta performance e de alta concorrência.
+  talk: Prometheus 101
+  description: "Conheça o casal 20 do monitoramento: Prometheus <3 Granafa!"
+  github: robsonpeixoto
+  twitter: robinhopeixoto
+  twitter: robsonpeixoto
+
+- ref: 16
+  avatar:
+  name: Hugo de Souza
+  city: Salvador, BA
+  company: Test
+  bio: bio
+  talk: SASS - Dando super-poderes ao seu CSS
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 17
+  avatar:
+  name: Luiz Cláudio Silva
+  city: Salvador, BA
+  company: Test
+  bio: bio
+  talk: Aplicações Web Python na Nuvem
+  description: desc
+  github: test
+  twitter: test
+
+- ref: 18
+  avatar:
+  name: Vinicius Nakamura
+  city: Salvador, BA
+  company: Test
+  bio: bio
+  talk: Treinamento Lean Inception - Direto Ao Ponto, de Paulo Caroli
+  description: desc
+  github: test
+  twitter: test
+
+
+

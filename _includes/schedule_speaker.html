@@ -1,4 +1,6 @@
-<div></div>
+<div>
+    <h2 class="time">{{include.time}}</h2>
+</div>
 <div>
     {% if speaker.avatar != null %}
     <h2 class="speaker"><a href="#speakerModal-{{ include.speaker.ref }}" class="speaker-link" data-toggle="modal">{{include.speaker.name}}</a></h2>
@@ -9,4 +11,5 @@
     {% endif %}
 
     <p>{{include.speaker.talk}}</p>
+    <p class="note">{{include.note}}</p>
 </div>
