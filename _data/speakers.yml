@@ -11,15 +11,16 @@
   github:
 
 - ref: 2
-  avatar:
+  avatar: thiago-colares.png
   name: Thiago Colares
-  city: city
-  company: Test
-  bio: bio
+  city: Salvador
+  company: Agilize Contabilidade Online
+  bio: Co-fundador e CTO da Agilize Contabilidade Online, bacharel em ciência da computação pela UFBA, programador, entusiasta da web e gerente de times com práticas ágeis. Gosta experimentar novidades e de colaborar com projetos Open Source, como o Mozilla. Usa PHP, JavaScript, Docker, React, Python e outras tecnologias. Nunca mais teve saco pra hackathon, mas já foi premiado pelo SoundCloud \m/
   talk: O Agilista Pragmático
-  description: desc
-  github: test
-  twitter: test
+  description: Dinheiro não nasce em árvore - times de desenvolvedores são caros e precisam entregar valor. Vou explicar de maneira pragmática como adotamos práticas ágeis para entregar mais com o mesmo time, estimar com confiança e lidar com imprevistos. E sem hora extra (ou quase nunca)!
+  linkedin: thiagocolares
+  github: colares
+  twitter: thicolares
 
 - ref: 3
   avatar: matheus-cas.png
@@ -67,26 +68,27 @@
   linkedin: samuelmbc
 
 - ref: 9
-  avatar:
+  avatar: vladson-freire.png
   name: Vladson Freire
   city: Salvador
   company: Sicred
-  bio: bio
+  bio: Nascido e criado em uma fábrica de software, encontrou na agilidade os caminhos para resolver as dores dos clientes e não apenas realizar entregas de software. Iniciou o uso de métodos ágeis na sua própria software house praticando agilidade em diversos níveis, da negociação dos contratos à entrega de produtos certos que resolvem os problemas apresentados pelos clientes. Na comunidade de software, atua como organizador do LinguÁgil e Agile Tour em Salvador, GUMA-RS e TDC, sempre realizando palestras nas comunidades locais. Atualmente é Agile Coach em uma instituição financeira tendo atuado como Desenvolvedor, Scrum Master e líder de projetos em outras instituições como HPE, Zap Imóveis e Capgemini.
   talk: Criando o produto certo usando Impact Mapping e técnicas de guerrilha ágil
   description: Uma Instituição Financeira realizando uma transformação ágil, contrata um time de desenvolvimento ágil para desenvolver um projeto com escopo inicial aberto, mas com processo de desenvolvimento tradicional. O que a empresa não esperava, era que este time buscaria a todo custo entregar um projeto que resolvesse a dor dos clientes e não apenas um escopo sem sentido. Nesta pequena apresentação vamos compartilhar detalhes de como foi a experiência e os desafios enfrentados pelo time de desenvolvimento que conseguiu no final, entregar a solução certa para o cliente com alto grau de satisfação e envolvimento de todos os envolvidos mesmo tendo que colocar o emprego de de alguns membros em risco
   twitter: vladsonfreire
   linkedin: vladson-freire-551242a
 
 - ref: 10
-  avatar:
+  avatar: lorena-caldas.png
   name: Lorena Caldas
-  city: city
-  company: Test
-  bio: bio
+  city: Salvador
+  company: FCamara
+  bio: Profissional com mais de 9 anos de experiência em TI. Atua na automação de testes de sistemas, implantação de processos de teste e treinamento de pessoal de TI.  Escreve para o site Qualidade de Software e contribui para Grupo de Testadores da Bahia (GTS-BA). É palestrante, possui artigos publicados e certificação na área de Qualidade de Software.
   talk: O papel do QA na cultura ágil
-  description: desc
-  github: test
-  twitter: test
+  description: Apresentação de um projeto de testes com estrutura em BDD com Cucumber, Ruby, Capybara e SitePrism
+  linkedin: lorenaccaldas
+  github: 
+  twitter: 
 
 - ref: 11
   avatar:
@@ -112,26 +114,28 @@
   linkedin: lucianoml
 
 - ref: 13
-  avatar:
+  avatar: fernanda-santos.png
   name: Fernanda Santos
-  city: city
-  company: Test
-  bio: bio
+  city: Salvador
+  company: Solutis
+  bio: Analista de sistemas a mais de 9 anos, atualmente minhas responsabilidades incluem definir o processo de criação, implementar uma cultura de criatividade e estabelecer métricas para avaliar a inovação. Uso do design thinking no processo.
   talk: Design Thinking como ferramenta de inovação
-  description: desc
-  github: test
-  twitter: test
+  description: O conceito que veio para revolucionar a maneira de encontrar soluções inovadoras para os problemas, soluções criativas focadas nas necessidades reais do mercado e não em pressuposição estatísticas.
+  linkedin: fernanda-fin-santos-23751336
+  github: 
+  twitter: 
 
 - ref: 14
-  avatar:
+  avatar: rafael-zampieri.png
   name: Rafael Zampieri de Oliveira
-  city: city
-  company: Test
-  bio: bio
+  city: São Paulo
+  company: UOL PagSeguro
+  bio: Atuando como Agile Master há 2 anos no UOL PagSeguro e liderando times ágeis com perfis e comportamentos bem distintos.
   talk: Como uma dinâmica de Planning II pode ajudar na formação de bons profissionais
-  description: desc
-  github: test
-  twitter: test
+  description: Nesta apresentação, será mostrado um modelo de dinâmica de Planning II e quais os benefícios e habilidades que o time e os indivíduos adquirem e que contribuem na disseminação do conhecimento, empatia, colaboração e planejamento.
+  linkedin: rafaelzampieri
+  github: rafazampieri
+  twitter: 
 
 - ref: 15
   avatar:
@@ -159,26 +163,28 @@
   twitter: robsonpeixoto
 
 - ref: 16
-  avatar:
+  avatar: hugo-deiro.png
   name: Hugo de Souza
   city: Salvador, BA
-  company: Test
-  bio: bio
+  company: Ericsson Inovação
+  bio: Estou na área desde 2011, trabalhei/estudei diversas tecnologias como PHP, Java, .NET e afins. Mas ultimamente tomei uma "cachaça" com o JavaScript, que tem sido minha linguagem predileta nos últimos anos. Fiz curso técnico e superior no IFBA, participei de pesquisas nas áreas de Realidade Aumentada e Suporte a Decisão, além de ter participado de diversos eventos da área (como ouvinte e palestrante também)
   talk: SASS - Dando super-poderes ao seu CSS
-  description: desc
-  github: test
-  twitter: test
+  description: Ao longo do minicurso será apresentar o pré-processador SASS e as possibilidades/facilidades que ele provê, tornando a criação do CSS muito mais flexível e prazerosa.
+  linkedin: hdeiro
+  github: HDeiro
+  twitter: 
 
 - ref: 17
-  avatar:
+  avatar: luiz-claudio.png
   name: Luiz Cláudio Silva
   city: Salvador, BA
-  company: Test
-  bio: bio
+  company: Consultor
+  bio: Formado em Processamento de Dados pela Faculdade Rui Barbosa, especialista em Redes de Computadores pela Unifacs. Trabalha com desenvolvimento e administração de sistemas e métodos ágeis desde 1996, tendo usado diferentes linguagens e metodologias. Tem participado de diversos eventos como organizador, instrutor e palestrante. 
   talk: Aplicações Web Python na Nuvem
-  description: desc
-  github: test
-  twitter: test
+  description: O objetivo deste minicurso é mostrar como desenvolver uma aplicação Web com Python e hospedá-la na "nuvem", em provedores de serviços. Serão utlizados exemplos com PaaS e containers.
+  linkedin: lcsilvalkd
+  github: luizclaudio
+  twitter: luizclaudios
 
 - ref: 18
   avatar:
