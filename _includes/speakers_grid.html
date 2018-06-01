@@ -10,7 +10,7 @@
         </div>
         <div class="row">
             {% for speaker in site.data.speakers %}
-                {% if speaker.avatar != null && speaker.showAvatar == null %}
+                {% if speaker.avatar != null and speaker.showAvatar == null %}
             <div class="col-sm-4 speaker-item">
                 <a href="#speakerModal-{{ speaker.ref }}" class="speaker-link" data-toggle="modal">
                     <div class="caption">
