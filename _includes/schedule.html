@@ -60,7 +60,6 @@
                 {% include schedule_speaker.html time="14h" speaker=speaker note="20 min de pausa para café e quitutes"%}
 
                 {% include schedule_checkpoint.html time="18" title="Encerramento" %}
-
             </div>
         </div>
 
@@ -108,9 +107,8 @@
                 {% assign speaker = site.data.speakers[7] %}
                 {% include schedule_speaker.html speaker=speaker %}
 
-                <!-- removendo palestra do Marcos Quintanilha  
-		{% assign speaker = site.data.speakers[8] %}
-                {% include schedule_speaker.html speaker=speaker %} -->
+	        	{% assign speaker = site.data.speakers[8] %}
+                {% include schedule_speaker.html speaker=speaker %}
 
                 {% include schedule_checkpoint.html time="16h" title="Coffee break" %}
 

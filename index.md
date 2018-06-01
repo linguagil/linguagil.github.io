@@ -27,6 +27,7 @@ layout: home
 
 {% include sponsorship.html %}
 {% include support.html %}
+{% include localization.html %}
 
 {% if site.contact == "static" %}
 {% include contact_static.html %}
