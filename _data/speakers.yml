@@ -217,7 +217,7 @@
 
 - ref: 18
   avatar: luiz-claudio.png
-  showAvatar: true
+  showAvatar: false
   name: Luiz Cláudio Silva
   city: Salvador, BA
   company: Consultor
