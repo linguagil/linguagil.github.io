@@ -187,7 +187,7 @@
   twitter: luizclaudios
 
 - ref: 17
-  avatar:
+  avatar: 
   name: Vinicius Nakamura
   city: Salvador, BA
   company: Test
@@ -198,7 +198,7 @@
   twitter: test
 
 - ref: 18
-  avatar:
+  avatar: luiz-claudio.png
   name: Luiz Cláudio Silva
   city: Salvador, BA
   company: Consultor
