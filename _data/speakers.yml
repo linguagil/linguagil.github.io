@@ -1,6 +1,5 @@
 - ref: 1
   avatar: glauber-sampaio.png
-  showAvatar: true
   name: Glauber Sampaio
   company: PRODEB
   city: Salvador, BA
@@ -13,7 +12,6 @@
 
 - ref: 2
   avatar: thiago-colares.png
-  showAvatar: true
   name: Thiago Colares
   city: Salvador
   company: Agilize Contabilidade Online
@@ -26,7 +24,6 @@
 
 - ref: 3
   avatar: matheus-cas.png
-  showAvatar: true
   name: Matheus Cardoso
   city: Feira de Santana, BA
   company: Full stack web/mobile developer
@@ -39,7 +36,6 @@
 
 - ref: 4
   avatar: larissa-bastos.png
-  showAvatar: true
   name: Larissa Bastos
   city: Salvador, BA
   company: Triviway
@@ -50,7 +46,6 @@
 
 - ref: 5
   avatar: fred-santoro.png
-  showAvatar: true
   name: Fred Santoro
   city: São Paulo, SP
   company: Safeticket, Lovoo, ZigPay
@@ -62,7 +57,6 @@
 
 - ref: 6
   avatar: samuel-cavalcante.png
-  showAvatar: true
   name: Samuel Cavalcante
   city: São Paulo, SP
   company: Knowledge21
@@ -75,7 +69,6 @@
 
 - ref: 7
   avatar: vladson-freire.png
-  showAvatar: true
   name: Vladson Freire
   city: Salvador
   company: Sicred
@@ -87,7 +80,6 @@
 
 - ref: 8
   avatar: lorena-caldas.png
-  showAvatar: true
   name: Lorena Caldas
   city: Salvador
   company: FCamara
@@ -100,7 +92,6 @@
 
 - ref: 9
   avatar:
-  showAvatar: false
   name: Victor Martinez
   city: Salvador
   company: Onyo
@@ -113,7 +104,6 @@
 
 - ref: 10
   avatar: luciano-lima.png
-  showAvatar: true
   name: Luciano Lima
   city: Salvador, BA
   company: Sanar
@@ -126,7 +116,6 @@
 
 - ref: 11
   avatar: fernanda-santos.png
-  showAvatar: true
   name: Fernanda Santos
   city: Salvador
   company: Solutis
@@ -139,7 +128,6 @@
 
 - ref: 12
   avatar: rafael-zampieri.png
-  showAvatar: true
   name: Rafael Zampieri de Oliveira
   city: São Paulo
   company: UOL PagSeguro
@@ -152,7 +140,6 @@
 
 - ref: 13
   avatar:
-  showAvatar: true
   name: Rafaela Sampaio e Raphael Montenegro
   city: city
   company: Test
@@ -166,7 +153,6 @@
 
 - ref: 14
   avatar: robson-peixoto.png
-  showAvatar: true
   name: Robson Peixoto
   city: Salvador, BA
   company: Stone Pagamentos
@@ -179,7 +165,6 @@
 
 - ref: 15
   avatar: hugo-deiro.png
-  showAvatar: true
   name: Hugo de Souza
   city: Salvador, BA
   company: Ericsson Inovação
@@ -192,7 +177,6 @@
 
 - ref: 16
   avatar: luiz-claudio.png
-  showAvatar: true
   name: Luiz Cláudio Silva
   city: Salvador, BA
   company: Consultor
@@ -205,7 +189,6 @@
 
 - ref: 17
   avatar: 
-  showAvatar: false
   name: Vinicius Nakamura
   city: Salvador, BA
   company: Test
