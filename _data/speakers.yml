@@ -92,14 +92,15 @@
 
 - ref: 9
   avatar:
-  name: Marcos Quintanilha
-  city: city
-  company: Test
-  bio: bio
-  talk: Ecossistema ANA - Transformando a Operação dos Serviços da Rede.
-  description: desc
-  github: test
-  twitter: test
+  name: Victor Martinez
+  city: Salvador
+  company: Onyo
+  bio: Graduando em Sistemas de Informação pela UFBA e Engenheiro de Software. Atualmente trabalho para a Onyo, startup de São Paulo engajada em tornar única a experiência de fazer pedidos nas praças de alimentação. 
+  talk: Remote Lifestyle - oportunidades e desafios do programador remoto
+  description: Trabalho remoto tem sido uma buzzword nos últimos anos mas ainda não é uma realidade para muitos profissionais. Nessa palestra vamos debater sobre os desafios e como o profissional baiano pode se posicionar para atuar nesse novo regime.
+  linkedin: vcrmartinez
+  github: victormartinez
+  twitter: vcrmartinez
 
 - ref: 10
   avatar: luciano-lima.png
@@ -198,7 +199,7 @@
   twitter: test
 
 - ref: 18
-  avatar: luiz-claudio.png
+  avatar:
   name: Luiz Cláudio Silva
   city: Salvador, BA
   company: Consultor
