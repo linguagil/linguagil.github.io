@@ -34,7 +34,7 @@
   twitter: matheuscas
   linkedin: matheuscardoso
 
-- ref: 6
+- ref: 4
   avatar: larissa-bastos.png
   name: Larissa Bastos
   city: Salvador, BA
@@ -44,7 +44,7 @@
   description: 1. Como surgiu a ideia de desenvolver o game; 2. Quais foram os primeiros passos (tecnologias escolhidas); 3. Dificuldades no desenvolvimento, linguagem utilizada etc; 4. Ideias pro futuro; 5. Desafio valendo brinde.
   linkedin: larissa-bastos-ctfl-04b15ba4
 
-- ref: 7
+- ref: 5
   avatar: fred-santoro.png
   name: Fred Santoro
   city: São Paulo, SP
@@ -55,7 +55,7 @@
   github:
   twitter: FredericSantoro
 
-- ref: 8
+- ref: 6
   avatar: samuel-cavalcante.png
   name: Samuel Cavalcante
   city: São Paulo, SP
@@ -67,7 +67,7 @@
   twitter: samuelmbc
   linkedin: samuelmbc
 
-- ref: 9
+- ref: 7
   avatar: vladson-freire.png
   name: Vladson Freire
   city: Salvador
@@ -78,7 +78,7 @@
   twitter: vladsonfreire
   linkedin: vladson-freire-551242a
 
-- ref: 10
+- ref: 8
   avatar: lorena-caldas.png
   name: Lorena Caldas
   city: Salvador
@@ -90,7 +90,7 @@
   github: 
   twitter: 
 
-- ref: 11
+- ref: 9
   avatar:
   name: Marcos Quintanilha
   city: city
@@ -101,7 +101,7 @@
   github: test
   twitter: test
 
-- ref: 12
+- ref: 10
   avatar: luciano-lima.png
   name: Luciano Lima
   city: Salvador, BA
@@ -113,7 +113,7 @@
   twitter: lucianoml
   linkedin: lucianoml
 
-- ref: 13
+- ref: 11
   avatar: fernanda-santos.png
   name: Fernanda Santos
   city: Salvador
@@ -125,7 +125,7 @@
   github: 
   twitter: 
 
-- ref: 14
+- ref: 12
   avatar: rafael-zampieri.png
   name: Rafael Zampieri de Oliveira
   city: São Paulo
@@ -137,7 +137,7 @@
   github: rafazampieri
   twitter: 
 
-- ref: 15
+- ref: 13
   avatar:
   name: Rafaela Sampaio e Raphael Montenegro
   city: city
@@ -150,7 +150,7 @@
 
 ## MINICURSO
 
-- ref: 16
+- ref: 14
   avatar: robson-peixoto.png
   name: Robson Peixoto
   city: Salvador, BA
@@ -162,19 +162,19 @@
   twitter: robinhopeixoto
   twitter: robsonpeixoto
 
-- ref: 16
+- ref: 15
   avatar: hugo-deiro.png
   name: Hugo de Souza
   city: Salvador, BA
   company: Ericsson Inovação
   bio: Estou na área desde 2011, trabalhei/estudei diversas tecnologias como PHP, Java, .NET e afins. Mas ultimamente tomei uma "cachaça" com o JavaScript, que tem sido minha linguagem predileta nos últimos anos. Fiz curso técnico e superior no IFBA, participei de pesquisas nas áreas de Realidade Aumentada e Suporte a Decisão, além de ter participado de diversos eventos da área (como ouvinte e palestrante também)
   talk: SASS - Dando super-poderes ao seu CSS
-  description: Ao longo do minicurso será apresentar o pré-processador SASS e as possibilidades/facilidades que ele provê, tornando a criação do CSS muito mais flexível e prazerosa.
+  description: Ao longo do minicurso será apresentado o pré-processador SASS e as possibilidades/facilidades que ele provê, tornando a criação do CSS muito mais flexível e prazerosa.
   linkedin: hdeiro
   github: HDeiro
   twitter: 
 
-- ref: 17
+- ref: 16
   avatar: luiz-claudio.png
   name: Luiz Cláudio Silva
   city: Salvador, BA
@@ -186,7 +186,7 @@
   github: luizclaudio
   twitter: luizclaudios
 
-- ref: 18
+- ref: 17
   avatar:
   name: Vinicius Nakamura
   city: Salvador, BA
@@ -197,7 +197,7 @@
   github: test
   twitter: test
 
-- ref: 19
+- ref: 18
   avatar:
   name: Luiz Cláudio Silva
   city: Salvador, BA
