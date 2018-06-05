@@ -121,8 +121,19 @@
                 {% assign speaker = site.data.speakers[11] %}
                 {% include schedule_speaker.html speaker=speaker %}
 
-                {% assign speaker = site.data.speakers[12] %}
-                {% include schedule_speaker.html speaker=speaker %}
+                <!--Exceção! Dois palestrantes, uma palestra-->
+                {% assign speaker01_02 = site.data.speakers[12] %}
+                {% assign speaker02_02 = site.data.speakers[18] %}
+                <div>
+                    <h2 class="time"></h2>
+                </div>
+                <div>
+                    <h2 class="speaker"><a href="#speakerModal-{{ speaker01_02.ref }}" class="speaker-link" data-toggle="modal">{{speaker01_02.name}}</a> e
+                        <a href="#speakerModal-{{ speaker02_02.ref }}" class="speaker-link" data-toggle="modal">{{speaker02_02.name}}</a>
+                    </h2>
+
+                    <p>{{speaker01_02.talk}}</p>
+                </div>
 
                 {% include schedule_checkpoint.html time="18h" title="Fishbowl" %}
 
