@@ -198,7 +198,7 @@
 
 - ref: 18
   avatar: luiz-claudio.png
-  showAvatar: false
+  hideAvatar: true
   name: Luiz Cláudio Silva
   city: Salvador, BA
   company: Consultor
@@ -208,7 +208,6 @@
   linkedin: lcsilvalkd
   github: luizclaudio
   twitter: luizclaudios
-
 
 # palestrante
 - ref: 19
