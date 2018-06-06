@@ -10,19 +10,19 @@
         </div>
         <div class="row">
             {% for speaker in site.data.speakers %}
-                {% if speaker.avatar != null and speaker.showAvatar == null %}
-            <div class="col-sm-4 speaker-item">
-                <a href="#speakerModal-{{ speaker.ref }}" class="speaker-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
+                {% if speaker.avatar != null and speaker.hideAvatar == null %}
+                    <div class="col-sm-4 speaker-item">
+                        <a href="#speakerModal-{{ speaker.ref }}" class="speaker-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="assets/images/speakers/{{ speaker.avatar }}" class="img-responsive" alt="{{ speaker.name }}">
+                            <h4>{{ speaker.name }}</h4>
+                            <h5>{{ speaker.company }}. {{ speaker.city }}</h5>
+                        </a>
                     </div>
-                    <img src="assets/images/speakers/{{ speaker.avatar }}" class="img-responsive" alt="{{ speaker.name }}">
-                    <h4>{{ speaker.name }}</h4>
-                    <h5>{{ speaker.company }}. {{ speaker.city }}</h5>
-                </a>
-            </div>
                 {% endif %}
             {% endfor %}
         </div>
