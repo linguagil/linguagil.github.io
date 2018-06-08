@@ -160,6 +160,35 @@ header .intro-text {
     }
 }
 
+.enroll {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .enroll-call-to-action {
+        width: 220px;
+        align-self: center;
+    }
+    .enroll-sold-out {
+        display: inline-block;
+        background: #ffffff;
+        width: 300px;
+        align-self: center;
+        margin: -35px;
+        transform: rotate(-15deg);
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 150%;
+        border: 4px solid #24202b;
+        font-weight: bold;
+        img {
+            display: inline-block;
+            margin: 0;
+            width: 32px;
+            height: 32px;
+            vertical-align: middle;
+        }
+    }
+}
 
 .brand-wrapper {
     display: flex;
