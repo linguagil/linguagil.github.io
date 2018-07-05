@@ -20,7 +20,15 @@ layout: home
 <body id="page-top" class="index">
 {% include nav.html %}
 {% include header.html %}
+
+
+
+
 {% include about.html %}
+
+{% include photo_gallery.html %}
+
+
 
 {% include speakers_grid.html %}
 {% include schedule.html %}
