@@ -9,7 +9,7 @@ Evento LinguÁgil 2018 - Salvador/BA
 Certifique-se de você tem o docker instalado
 
     $ git clone git@github.com:linguagil/2018.git
-    $ cd 2018
+    $ Cd 2018
     $ make serve
 
 Abra a url: http://0.0.0.0:4000/
